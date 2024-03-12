@@ -1,1 +1,2 @@
-# Git_Repository_1
+#Python-Experiments
+This is my first Git Repository
