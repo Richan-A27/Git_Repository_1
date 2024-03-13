@@ -1,5 +1,4 @@
 #Write a Python program to remove duplicate elements in a list.
-
 def remove_dupicate(List):
   NL=[]
   for i in List:
@@ -14,7 +13,6 @@ def reverse_list(List):
 reverse_list([1,2,3,4,5,6,7,8])
 
 #store student details such as name, regno, cgpa as tuples in a list. Sort the student details by name , regno and cgpa and display sorted student details.
-
 def Stu_details(no_of_students):
   SRecord=[]
   for i in range(no_of_students):
@@ -33,8 +31,6 @@ def Stu_details(no_of_students):
 Stu_details(3)
 
 #Write a Python program to find all the unique words and count the frequency of occurrence from a given list of strings. Use Python set data type.
-l = ['apple', 'banana', 'cherry', 'apple', 'banana', 'apple', 'date']
-
 def Uword_freq(list):
    word_counts = {}
    unique_words = set(l)
