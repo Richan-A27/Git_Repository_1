@@ -33,7 +33,7 @@ Stu_details(3)
 #Write a Python program to find all the unique words and count the frequency of occurrence from a given list of strings. Use Python set data type.
 def Uword_freq(list):
    word_counts = {}
-   unique_words = set(l)
+   unique_words = set(list)
    for word in list:
       if word not in word_counts:
           word_counts[word] = 1
