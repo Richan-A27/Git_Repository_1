@@ -9,6 +9,4 @@ def perfect(num):
     print(f"{num} is a perfect number")
   else:
     print(f"{num} is not a perfect number")
-  print(l)
-perfect(5364)
 
