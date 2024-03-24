@@ -1,13 +1,13 @@
 #Read the input from the console and write it into a file until the word end of the line reaches.
-with open ("Experiment-5b.txt", mode="w") as file:
+"""with open ("Experiment-5b.txt", mode="w") as file:
     print('''To stop, type "EOF"''')
     while True:
         line = input("Enter line: ")
         if (line=="EOF"): 
             break
-        file.write(line + "\n")
+        file.write(line + "\n")"""
     
-#Exp-5a
+#URK23CS1086
 def count_upper_lower(filename):
     with open (filename,"r") as file:
         upper,lower = 0,0
@@ -19,6 +19,7 @@ def count_upper_lower(filename):
                 lower+=1
             else:
                 continue
+    return f"Uppercase: {upper}, Lowercase: {lower}"
         
 def word_search_replace(filename):
     word = input("Enter the word to search:")
@@ -41,5 +42,6 @@ def longest_word(filename):
 
         print(f'''The longest word in the file {filename} is "{longest__word}"''')
 
+print(count_upper_lower("Experiment-5b.txt"))
 
 

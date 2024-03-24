@@ -10,3 +10,12 @@ def perfect(num):
   else:
     print(f"{num} is not a perfect number")
 
+#Write a python program to check whether a number is a palindrome or not using a function
+
+def check_palindrome(string):
+  if string[::-1]==string:
+    return "It is a palindrome"
+  else:
+    return "It is not a palindrome"
+
+print((check_palindrome("malyalam")))
