@@ -1,7 +1,7 @@
 from PIL import Image, ImageOps, ImageFilter
 
 image = Image.open('green.jpg')
-''''# a) Display the image
+# a) Display the image
 image.show()
 
 
@@ -46,7 +46,7 @@ bw_image = gray_image.point(lambda x: 0 if x < 128 else 255, '1')
 gray_image.show()
 bw_image.show()
 
-'''
+
 # j) Apply blur effect on the image
 blurred_image = image.filter(ImageFilter.BLUR)
 blurred_image.show()

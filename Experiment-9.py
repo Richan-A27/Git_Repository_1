@@ -1,4 +1,4 @@
-'''class Employee:
+class Employee:
     def __init__(self, emp_id, emp_name, basic_salary):
         self.emp_id = emp_id
         self.emp_name = emp_name
@@ -26,10 +26,12 @@ class Engineer(Employee):
         super().__init__(emp_id, emp_name, basic_salary)
         self.da, self.hra, self.tax, self.epf = 80, 15, 15, 2000
 
-def main():
+def salary():
     print("1. Manager\n2. Engineer")
     choice = int(input("Enter the type of employee: "))
-    emp_id, emp_name, basic_salary = input("Enter Employee ID, Name, Basic Salary: ").split()
+    emp_id = input("Enter Employee ID:")
+    emp_name =  input("Name:")
+    basic_salary = input("Basic Salary:")
     basic_salary = float(basic_salary)
 
     if choice == 1:
@@ -41,11 +43,9 @@ def main():
         return
 
     employee.print_pay_details()
+salary()
 
-if __name__ == "__main__":
-    main()
 '''
-
 class Worker:
     def __init__(self, name, salary_rate):
         self.name = name
@@ -63,7 +63,7 @@ class SalariedWorker(Worker):
         return self.salary_rate * 40
 
 # Main program
-def main():
+def salary():
     name = input("Enter worker's name: ")
     salary_rate = float(input("Enter worker's hourly wage or weekly salary: "))
     worker_type = input("Enter worker type (daily/salaried): ")
@@ -81,6 +81,7 @@ def main():
 
     print(f"{worker.name} earned Rs.{pay} this week.")
 
-if __name__ == "__main__":
-    main()
+salary()
 
+
+'''

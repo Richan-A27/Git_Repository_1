@@ -61,7 +61,6 @@ class Student:
         report = f"Registration Number: {self.regno}\nName: {self.name}\nCGPA: {self.cgpa}"
         return report
 
-# Create Student objects
 student1 = Student("URK23CS0000", "Max", 8.8)
 student2 = Student("URK23CS0001", "Santner", 9.5)
 

@@ -5,6 +5,7 @@ S2=input("Enter an another string:")
 
 def swap_add_string(a,b):
     return b[0]+a[1:] +" "+a[0]+b[1:]
+print(swap_add_string(S1,S2))
 
 #Write a Python program to get a string from a given string where all occurrences of its first char have been changed to ‘#’ except the first char itself.
 
@@ -31,7 +32,7 @@ def second_repeated_word(a):
     else:
         return "No second most repeated word"
 
-sentence = "the quick brown fox jumps over the lazy dog the quick brown fox"
+sentence = "the quick brown fox jumps over the lazy dog the quick brown fox real quick"
 print("The most repeated word is,",second_repeated_word(sentence))
 
 #Write a Python program to count occurrences of a substring in a string.

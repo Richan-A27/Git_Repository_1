@@ -1,4 +1,4 @@
-'''import turtle
+import turtle
 
 # Set up the screen
 screen = turtle.Screen()
@@ -26,6 +26,7 @@ for i in range(3):
 
 
 t.goto(0, 0)
+t.circle(50,5)
 t.color("#000080")
 t.down()
 for i in range(24):
@@ -33,6 +34,8 @@ for i in range(24):
     t.backward(50)
     t.right(15)
 t.up()
+
+
 
 t.hideturtle()
 screen.mainloop()
@@ -102,3 +105,4 @@ t.hideturtle()
 
 # Display the drawing
 turtle.done()
+'''
