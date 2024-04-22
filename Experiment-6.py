@@ -32,7 +32,7 @@ def second_repeated_word(a):
     else:
         return "No second most repeated word"
 
-sentence = "the quick brown fox jumps over the lazy dog the quick brown fox real quick"
+sentence = "quick brown fox jumps over the lazy dog the quick brown fox real quick"
 print("The most repeated word is,",second_repeated_word(sentence))
 
 #Write a Python program to count occurrences of a substring in a string.
